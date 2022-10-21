@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;  
+}
+/* Registration form - Форма для регистрации */
+.registration{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 433px;
+    background: #FDFDFF;
+    box-shadow: 0px 0px 30px rgba(0, 29, 108, 0.1);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container__reg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.registration__header{
+    display: flex;
+    justify-content: center;
+
+}
+.registration__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #979797;
+}
+.registration__form__input{
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+    border-radius: 5px;
+}
+.form__button{
+    width: 220px;
+    height: 50px;
+    background: #8DD83D;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/* XBOX first section */
+.first{}
+/* first section header */
+.header{
+    background: #373A3C;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    padding: 11px 167px 8px 163px;
+}
+.header__logo{}
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    padding-right: 165px;
+}
+.menu__item{
+    padding-right: 50px;
+}
+.menu__link__g{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.menu__link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.first__arrow::after{
+    position: relative;
+    content: '';
+    background: url(../image/down-arrow.png) no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+    top: 3px;
+    left: 5px;
+}
+/* first section intro */
+.intro{
+    width: 1400px;
+    height: 644px;
+    background: url(../image/starwars.png);
+}
+.container{}
+.intro__back{}
+.intro__title{}
+.intro__subtitle{}
+.icon__prev{}
+.icon__next{}
+.btn{}
+.intro__btn{}
+.intro__indicators{}
+/* second section */
+.second{}
+.second__wrap{}
+.second__head__subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.second__head__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.second__row{
+    display: flex;
+    flex-direction: row;
+}
+.seond__column{
+    padding-right: 60px;
+}
+.second__item{}
+.second__icon{}
+.second__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.second__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #435766;
+}
+.second__btn{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #8DD83D;
+    border-radius: 4px;
+}
+/* section third */
+.third{
+    background: url(../image/back3.png);
+}
+.third__wrap{}
+.second__head{}
+.second__image{}
+.third__block{}
+.third__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.third__subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.third__btn{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+}
+.third__butn{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #8DD83D;
+    border-radius: 4px;
+}
+/* section fourth */
+.fourth{
+    background: #373A3C;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourth__wrap{
+    display: flex;
+    flex-direction: column;
+}
+.fourth__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fourth__column{}
+.fourth__item{}
+.fourth__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+}
+.fourth__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.fourth__image{}
+.fourth__footer{
+    display: flex;
+    flex-direction: row;
+}
+.fourth__text1{}
+.fourth__text2{}
+
+
+
+
+
+
+
